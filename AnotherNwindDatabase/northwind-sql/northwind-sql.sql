@@ -12,7 +12,7 @@ Downloaded from GeeksEngine.com
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`northwind` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
 
-USE `northwind2`;
+USE `northwind`;
 
 -- Table structure for table `categories`
 
