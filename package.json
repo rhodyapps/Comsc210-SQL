@@ -7,7 +7,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-firebase-hooks": "^2.1.0",
-    "react-scripts": "3.1.2"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
