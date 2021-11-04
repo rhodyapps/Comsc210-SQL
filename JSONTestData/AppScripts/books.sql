@@ -18,16 +18,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `books3`
+-- Database: `books`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `data_file`
+-- Table structure for table `books`
 --
 
-CREATE TABLE `data_file` (
+CREATE TABLE `books` (
   `author` varchar(26) DEFAULT NULL,
   `country` varchar(32) DEFAULT NULL,
   `imageLink` varchar(51) DEFAULT NULL,
@@ -39,10 +39,10 @@ CREATE TABLE `data_file` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `data_file`
+-- Dumping data for table `books`
 --
 
-INSERT INTO `data_file` (`author`, `country`, `imageLink`, `language`, `link`, `pages`, `title`, `year`) VALUES
+INSERT INTO `books` (`author`, `country`, `imageLink`, `language`, `link`, `pages`, `title`, `year`) VALUES
 ('author', 'country', 'imageLink', 'language', 'link', 'pages', 'title', 'year'),
 ('Chinua Achebe', 'Nigeria', 'images/things-fall-apart.jpg', 'English', 'https://en.wikipedia.org/wiki/Things_Fall_Apart\n', '209', 'Things Fall Apart', '1958'),
 ('Hans Christian Andersen', 'Denmark', 'images/fairy-tales.jpg', 'Danish', 'https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n', '784', 'Fairy tales', '1836'),
